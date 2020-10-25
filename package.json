@@ -1,0 +1,40 @@
+{
+    "name": "medium-demo-theme",
+    "displayName": "medium-demo-theme",
+    "description": "An example of custom VsCode theme development for Medium article.",
+    "publisher": "mehmetcantas",
+    "author": {
+        "name": "Mehmet Can Taş",
+        "url": "https://twitter.com/mehmetcantas_"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "icon": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/your-repository"
+    },
+    "bugs": {
+        "url": "https://github.com/your-username/your-repository/issue"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Medium Demo Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Medium Demo Theme-color-theme.json"
+            }
+        ]
+    },
+    "keywords": [
+        "dark theme",
+        "vscode theme",
+        "my custom keyword",
+        "some important keyword"
+    ]
+}
